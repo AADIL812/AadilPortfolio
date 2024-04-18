@@ -1,0 +1,14 @@
+
+
+/* styles.css */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Set container height to viewport height */
+}
+.resized-image {
+    max-width: 20%; /* Adjust the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}

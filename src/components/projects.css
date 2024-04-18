@@ -1,0 +1,11 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.hstack-wrapper {
+    width: 100%; /* Ensure the HStack spans the width */
+    max-width: 960px; /* Optional: Set a max-width for better readability */
+}
